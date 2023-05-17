@@ -1,7 +1,7 @@
 node(){
     stage('Checkout SCM') {
         // git branch: 'master', url: 'https://github.com/piyushsrivastava80/innovation_tracker_frontend.git'
-        git branch: 'master', url: 'https://github.com/piyushsrivastava80/evolverai_1.git'
+        git branch: 'main', url: 'https://github.com/piyushsrivastava80/evolverai_1.git'
     }
 
     stage('Install node modules') {
